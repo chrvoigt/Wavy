@@ -1,0 +1,55 @@
+
+
+body {
+    margin: 0;
+}
+
+.curved_upper {
+    background: #fff;
+}
+
+.curved_lower {
+    background: darkblue;
+}
+
+.curved_upper svg, .curved_lower svg {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    /* text-shadow: -0.8rem -0.6rem black; */
+    font-family: Tahoma, sans-serif;
+    color: #ffffff;
+    background: darkblue;
+    margin: 0;
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    animation: anitext 4s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+p {
+    text-align: center;
+    margin:0px;
+    /* padding:  top | right | bottom | left */
+    padding: 1rem;
+    color: #ffffff;
+    font-size: 1rem;
+    background-color: darkblue;
+    font-family: Tahoma, sans-serif;
+}
+
+/*@keyframes anitext {*/
+/*    70% {*/
+/*        font-size:4rem;*/
+/*    }*/
+/*}*/
+
+a.fill-div {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
